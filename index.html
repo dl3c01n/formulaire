@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulaire</h1>
+    </header>
+
+    <div>
+        <form action="#" method="post">
+            <label for="username">Pseudo : </label><br>
+            <input type="text" name="username" id="username">
+            <p id="usernameErr">Le pseudo n'est pas valide</p>
+
+            <label for="mail">Mail : </label><br>
+            <input type="text" name="mail" id="mail">
+            <p id="mailErr">Le mail n'est pas valide</p>
+
+            <label for="password">Mot de passe : </label><br>
+            <input type="password" name="password" id="password">
+            <p id="passwordErr">Le mot de passe n'est pas valide</p>
+            <label for="passwordConf">Confirmer mot de passe : </label><br>
+            <input type="password" name="passwordConf" id="passwordConf">
+            <p id="passwordConfErr">Le mot de passe ne correspond pas</p>
+            <input type="submit" value="Envoyer" id="submit" disabled>
+        </form>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

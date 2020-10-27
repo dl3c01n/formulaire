@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+
+#passwordErr{
+    color: red;
+    font-weight: bold;
+}
+
+#mailErr{
+    color: red;
+    font-weight: bold;
+}
+
+#passwordConfErr{
+    color: red;
+    font-weight: bold;
+}
+
+#usernameErr{
+    color: red;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+    
+}
+
+input{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
